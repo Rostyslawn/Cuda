@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.hr{
+    height: 1px;
+    width: 90px;
+    margin: auto;
+    background: black;
+}
+
+.title{
+    padding-top: 100px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.title .hr{
+    margin: 20px auto;
+}
+
+.title ul{
+     margin-top: 15px;
+     display: flex;
+     grid-gap: 20px;
+     justify-content: center;
+}
+
+.title ul li{
+    font-family: Arial, sans-serif;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 3px;
+    background-color: #e5c37f;
+}
+
+.title .active{
+    border: 1px solid white;
+    background: white;
+}
+
+.button{
+    display: block;
+    margin: 2rem auto 0;
+    border: none;
+    width: 335px;
+    height: 80px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 34px;
+}
+
+.block{
+    padding: 0 270px;
+}
+
+.text{
+    font-size: 1.4rem;
+}
+
+.header{
+    background: rgb(135, 80, 156);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    align-items: center;
+}
+
+.nav .ul{
+    grid-template-columns: 80px 80px 80px 80px 80px;
+}
+
+ul{
+    justify-content: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header .text{
+    padding: 80px 0 140px;
+    margin: auto;
+    text-align: center;
+    width: 880px;
+}
+
+.header .text p{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.header .text .button{
+    font-family: "Titillium Web", sans-serif;
+    background-color: #eb7d4b;
+    font-weight: 600;
+    margin-top: 60px;
+    width: 295px;
+    height: 70px;
+    border: 1px solid rgb(235, 125, 75);
+    border-radius: 5px;
+    color: white;
+    border-bottom: 5px solid #c86a40;
+    font-size: 18px;
+}
+
+.services{
+    margin: auto;
+}
+
+.services p{
+    color: rgba(248, 248, 248, 0.624);
+}
+
+.services .title p, .skills .title p, .portfilio p{
+    margin: auto;
+    width: 550px;
+    font-size: 18px;
+}
+
+.services{
+    background: rgb(23, 194, 164);
+}
+
+.services li{
+    text-align: center;
+}
+
+.services ul{
+    margin: 0 402.5px;
+}
+
+.team{
+    background: rgb(231, 241, 248);
+}
+
+.team .title *{
+    color: rgb(135, 135, 135);
+}
+
+.team ul{
+    text-align: center;
+}
+
+.team .h3, .p{
+    color: black;
+}
+
+.team h4{
+    color: rgb(23, 194, 164);
+}
+
+.team ul .networks{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.team ul .networks li{
+    padding: 10px;
+}
+
+.team ul p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.skills *{
+    color: rgb(135, 135, 135);
+}
+
+.skill-list li{
+    text-align: center;
+}
+
+.skill-list h3{
+    font-size: 18.72px;
+}
+
+.portfilio, .skills, .team, .services li, .abouts{
+    padding-bottom: 2rem;
+}
+
+.portfilio{
+    background: rgb(255, 221, 153);
+}
+
+.portfilio *{
+    color: black;
+}
+
+.section{
+    padding-top: 50px;
+}
+
+.works ul{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    grid-gap: 100px;
+}
+
+.works ul li{
+    font-size: 1.4rem;
+}
+
+.portfilio *{
+    color: #534f46;
+}
+
+.portfilio p{
+    font-size: 18px;
+}
+
+.portfilio button{
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgb(23, 194, 164);
+    background-color: rgb(23, 194, 164);
+    border-bottom: rgb(20, 165, 140) 5px solid;
+    margin-top: 70px;
+}
+
+.abouts{
+    background: rgb(215, 70, 128);
+}
+
+.clients{
+    display: grid;
+    grid-template-columns: 530px 530px;
+    justify-content: center;
+    row-gap: 100px;
+}
+
+.clients img{
+    margin-top: -70px;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.clients li{
+    display: flex;
+    align-items: center;
+
+}
+
+.clients li p{
+    color: rgba(248, 248, 248, 0.624);
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 21px;
+}
+
+.clients li h4{
+    color: rgb(255, 221, 153);
+}
